@@ -5,6 +5,6 @@
       <metricDescription xsi:type="metricspec:NumericalBaseMetricDescription" href="pathmap://METRIC_SPEC_MODELS/models/commonMetrics.metricspec#_QWjAYs7qEeOX_4BzImuHbA"/>
       <processingType xsi:type="monitorrepository:FeedThrough" id="_-RDaRId3Eemx4fL-firVNg"/>
     </measurementSpecifications>
-    <measuringPoint xsi:type="pcmmeasuringpoint:AssemblyPassiveResourceMeasuringPoint" href="My.measuringpoint#//@measuringPoints.1"/>
+    <measuringPoint xsi:type="pcmmeasuringpoint:AssemblyPassiveResourceMeasuringPoint" href="My.measuringpoint#//@measuringPoints.0"/>
   </monitors>
 </monitorrepository:MonitorRepository>

@@ -10,9 +10,9 @@
     <resourceContainer_AllocationContext href="mosaic-ch.resourceenvironment#_DO6vcG_fEemrIvPmN-PCZA"/>
     <assemblyContext_AllocationContext href="mosaic-ch.system#_19JM0G_dEemrIvPmN-PCZA"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_fCUIcG_gEemrIvPmN-PCZA" entityName="Allocation_Assembly_PollingConsumerGroup">
-    <resourceContainer_AllocationContext href="mosaic-ch.resourceenvironment#_Dj3EsG_fEemrIvPmN-PCZA"/>
-    <assemblyContext_AllocationContext href="mosaic-ch.system#_AmdU4G_eEemrIvPmN-PCZA"/>
+  <allocationContexts_Allocation id="_rP_mQG_gEemrIvPmN-PCZA" entityName="Allocation_Assembly_MessageBroker">
+    <resourceContainer_AllocationContext href="mosaic-ch.resourceenvironment#_DO6vcG_fEemrIvPmN-PCZA"/>
+    <assemblyContext_AllocationContext href="mosaic-ch.system#_y5sC4G_dEemrIvPmN-PCZA"/>
   </allocationContexts_Allocation>
   <allocationContexts_Allocation id="_gk3gUG_gEemrIvPmN-PCZA" entityName="Allocation_Assembly_QueueResources">
     <resourceContainer_AllocationContext href="mosaic-ch.resourceenvironment#_DO6vcG_fEemrIvPmN-PCZA"/>
@@ -26,12 +26,8 @@
     <resourceContainer_AllocationContext href="mosaic-ch.resourceenvironment#_C8rI4G_fEemrIvPmN-PCZA"/>
     <assemblyContext_AllocationContext href="mosaic-ch.system#_swG1gG_dEemrIvPmN-PCZA"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_qU9hYG_gEemrIvPmN-PCZA" entityName="Allocation_Assembly_Notification">
+  <allocationContexts_Allocation id="_b8yfABBfEeqnVv-3S_AxaQ" entityName="Allocation_Assembly_Consumer">
     <resourceContainer_AllocationContext href="mosaic-ch.resourceenvironment#_Dj3EsG_fEemrIvPmN-PCZA"/>
-    <assemblyContext_AllocationContext href="mosaic-ch.system#_-ccUYG_dEemrIvPmN-PCZA"/>
-  </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_rP_mQG_gEemrIvPmN-PCZA" entityName="Allocation_Assembly_MessageBroker">
-    <resourceContainer_AllocationContext href="mosaic-ch.resourceenvironment#_DO6vcG_fEemrIvPmN-PCZA"/>
-    <assemblyContext_AllocationContext href="mosaic-ch.system#_y5sC4G_dEemrIvPmN-PCZA"/>
+    <assemblyContext_AllocationContext href="mosaic-ch.system#_Tc9zABBfEeqnVv-3S_AxaQ"/>
   </allocationContexts_Allocation>
 </allocation:Allocation>

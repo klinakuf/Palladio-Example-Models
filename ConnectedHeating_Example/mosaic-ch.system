@@ -19,11 +19,8 @@
     <assemblyContexts__ComposedStructure id="_9Wy68G_dEemrIvPmN-PCZA" entityName="AlarmQueue">
       <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="mosaic-ch.repository#_jA9gcGBXEemrIvPmN-PCZA"/>
     </assemblyContexts__ComposedStructure>
-    <assemblyContexts__ComposedStructure id="_-ccUYG_dEemrIvPmN-PCZA" entityName="Assembly_Notification">
+    <assemblyContexts__ComposedStructure id="_Tc9zABBfEeqnVv-3S_AxaQ" entityName="Assembly_Consumer">
       <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="mosaic-ch.repository#_Pks44GBTEemrIvPmN-PCZA"/>
-    </assemblyContexts__ComposedStructure>
-    <assemblyContexts__ComposedStructure id="_AmdU4G_eEemrIvPmN-PCZA" entityName="Assembly_PollingConsumerGroup">
-      <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="mosaic-ch.repository#_sYu2MGBZEemrIvPmN-PCZA"/>
     </assemblyContexts__ComposedStructure>
     <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_Gvl2UG_eEemrIvPmN-PCZA" entityName="newAssemblyConnector" requiringAssemblyContext_AssemblyConnector="_swG1gG_dEemrIvPmN-PCZA" providingAssemblyContext_AssemblyConnector="_y5sC4G_dEemrIvPmN-PCZA">
       <providedRole_AssemblyConnector href="mosaic-ch.repository#_xpKDcGBYEemrIvPmN-PCZA"/>
@@ -40,21 +37,17 @@
       <providedRole__AssemblyInfrastructureConnector href="mosaic-ch.repository#_IG6NYGEeEemrIvPmN-PCZA"/>
       <requiredRole__AssemblyInfrastructureConnector href="mosaic-ch.repository#_zzxx8G_wEemrIvPmN-PCZA"/>
     </connectors__ComposedStructure>
-    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_PoLAkG_eEemrIvPmN-PCZA" entityName="newAssemblyConnector" requiringAssemblyContext_AssemblyConnector="_-ccUYG_dEemrIvPmN-PCZA" providingAssemblyContext_AssemblyConnector="_AmdU4G_eEemrIvPmN-PCZA">
-      <providedRole_AssemblyConnector href="mosaic-ch.repository#_-dzIsGBaEemrIvPmN-PCZA"/>
-      <requiredRole_AssemblyConnector href="mosaic-ch.repository#_Jj56cGBbEemrIvPmN-PCZA"/>
+    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_Rxu-8HCrEemrIvPmN-PCZA" entityName="newAssemblyConnector" requiringAssemblyContext_AssemblyConnector="_y5sC4G_dEemrIvPmN-PCZA" providingAssemblyContext_AssemblyConnector="_5Cf0MG_dEemrIvPmN-PCZA">
+      <providedRole_AssemblyConnector href="mosaic-ch.repository#_cSEfIGEeEemrIvPmN-PCZA"/>
+      <requiredRole_AssemblyConnector href="mosaic-ch.repository#_norLAGEeEemrIvPmN-PCZA"/>
     </connectors__ComposedStructure>
     <connectors__ComposedStructure xsi:type="composition:AssemblyInfrastructureConnector" id="_fgaCkG_0EemrIvPmN-PCZA" entityName="newAssemblyInfrastructureConnector" providingAssemblyContext__AssemblyInfrastructureConnector="_9Wy68G_dEemrIvPmN-PCZA" requiringAssemblyContext__AssemblyInfrastructureConnector="_19JM0G_dEemrIvPmN-PCZA">
       <providedRole__AssemblyInfrastructureConnector href="mosaic-ch.repository#_IG6NYGEeEemrIvPmN-PCZA"/>
       <requiredRole__AssemblyInfrastructureConnector href="mosaic-ch.repository#_zzxx8G_wEemrIvPmN-PCZA"/>
     </connectors__ComposedStructure>
-    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_Rxu-8HCrEemrIvPmN-PCZA" entityName="newAssemblyConnector" requiringAssemblyContext_AssemblyConnector="_y5sC4G_dEemrIvPmN-PCZA" providingAssemblyContext_AssemblyConnector="_5Cf0MG_dEemrIvPmN-PCZA">
-      <providedRole_AssemblyConnector href="mosaic-ch.repository#_cSEfIGEeEemrIvPmN-PCZA"/>
-      <requiredRole_AssemblyConnector href="mosaic-ch.repository#_norLAGEeEemrIvPmN-PCZA"/>
-    </connectors__ComposedStructure>
-    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_T_i6UHCrEemrIvPmN-PCZA" entityName="newAssemblyConnector" requiringAssemblyContext_AssemblyConnector="_y5sC4G_dEemrIvPmN-PCZA" providingAssemblyContext_AssemblyConnector="_-ccUYG_dEemrIvPmN-PCZA">
+    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_U_pGsBBfEeqnVv-3S_AxaQ" entityName="newAssemblyConnector" requiringAssemblyContext_AssemblyConnector="_y5sC4G_dEemrIvPmN-PCZA" providingAssemblyContext_AssemblyConnector="_Tc9zABBfEeqnVv-3S_AxaQ">
       <providedRole_AssemblyConnector href="mosaic-ch.repository#_f2wjYGBZEemrIvPmN-PCZA"/>
-      <requiredRole_AssemblyConnector href="mosaic-ch.repository#_hKMhMGBZEemrIvPmN-PCZA"/>
+      <requiredRole_AssemblyConnector href="mosaic-ch.repository#_hKMhMGBZEemrIvPmY-PCZA"/>
     </connectors__ComposedStructure>
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_ZmNXAG_eEemrIvPmN-PCZA" entityName="OperationProvidedRole1">
       <providedInterface__OperationProvidedRole href="mosaic-ch.repository#_oZ0DMGBREemrIvPmN-PCZA"/>
@@ -64,7 +57,7 @@
     <stereotypeApplications xsi:type="org.palladiosimulator.architecturaltemplates.catalog.profiles:DynamicHorizontalScalingAssemblyContextSystem" appliedTo="_nm4R4G_dEemrIvPmN-PCZA">
       <extension href="../../plugin/org.palladiosimulator.architecturaltemplates.catalog/profiles/DynamicHorizontalScalingAssemblyContext.emfprofile_diagram#_F-_DAJQkEeSq-7Z_6FnzsQ"/>
     </stereotypeApplications>
-    <stereotypeApplications xsi:type="org.palladiosimulator.architecturaltemplates.catalog.profiles:ReplicableAssemblyContext" appliedTo="_-ccUYG_dEemrIvPmN-PCZA" scaleOutThreshold="2.0" measurementSpecificationID="_lMFKEIIKEemQxviTNT8WDg">
+    <stereotypeApplications xsi:type="org.palladiosimulator.architecturaltemplates.catalog.profiles:ReplicableAssemblyContext" appliedTo="_Tc9zABBfEeqnVv-3S_AxaQ" numberOfReplicas="2" scaleOutThreshold="2.3" measurementSpecificationID="_lMFKEIIKEemQxviTNT8WDg">
       <extension href="../../plugin/org.palladiosimulator.architecturaltemplates.catalog/profiles/DynamicHorizontalScalingAssemblyContext.emfprofile_diagram#_XWQ34JQkEeSq-7Z_6FnzsQ"/>
     </stereotypeApplications>
     <importedProfiles nsURI="org.palladiosimulator.architecturaltemplates.catalog.profiles.dynamichorizontalscalingassemblycontext" location="platform:/plugin/org.palladiosimulator.architecturaltemplates.catalog/profiles/DynamicHorizontalScalingAssemblyContext.emfprofile_diagram"/>
